@@ -30,11 +30,10 @@
 
 //Write a function that takes a string containing names separated by commas like "Leah, Russell, Michelle" and returns an array of names, ["Leah", "Russell", "Michelle"]
 
-  let strName = "Leah, Russell, Michelle";
-  let regexToSearchFor = /lrm/gi;
-
-  let names = strName.split(regexToSearchFor, strName);
-  console.log(strName);
+  var strNames = "Leah, Russell, Michelle";
+  var removeComma = /\,/gi;
+  var newArray = strNames.replace(removeComma, "");
+  newArray.split(" ");
 
 //alternate not complete answer :(
 // let strName = "Leah, Russell, Michelle";
