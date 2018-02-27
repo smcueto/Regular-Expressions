@@ -1,0 +1,35 @@
+Write a function that takes a word and returns true if the word ends with tonica
+let wordStr = "Techtonica";
+let regexToSearchFor =/tonica/;
+regexToSearchFor.test(wordStr);
+
+
+Write a function expression that takes a string replaces all instances of symantec with semantic?
+let wordStr = "Symantec is where we are. Symantec is cool.";
+let regexToSearchFor = /Symantec/gi;
+
+let newPlace = "semantic";
+let newWordStr = wordStr.replace(regexToSearchFor, newPlace);
+console.log(newWordStr);
+
+Write a function that takes a string and deletes all words that end in ing?
+let wordStr = "I used to love running but now everything has changed.";
+let regexToSearchFor = /ing/gi;
+
+let delIng = '';
+let newStr = wordStr.replace(regexToSearchFor, delIng);
+console.log(newStr);
+
+
+Write a function that takes a string and returns true if it is an email address? Compare your answer with your neighbor.
+
+let email = "Is your email 123@gmail.com?"
+let regexToSearchFor = /.com/;
+regexToSearchFor.test(email);
+
+
+Write a function that takes a string containing names separated by commas like "Leah, Russell, Michelle" and returns an array of names, ["Leah", "Russell", "Michelle"]
+
+let strName = "Leah, Russell, Michelle";
+let regexToSearchFor = .;
+regexToSearchFor.test(strName);
